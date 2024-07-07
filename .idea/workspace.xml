@@ -49,13 +49,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_directory_selection": "/Users/wanghongzhan/Documents/whzProjects/1_github/springboot-security-demo/src/test/java/com/whz",
-    "last_opened_file_path": "/Users/wanghongzhan/Documents/whzProjects/1_github/springboot-security-demo/src/main/resources",
+    "last_opened_file_path": "/Users/wanghongzhan/Documents/whzProjects/1_github/springboot-security-demo",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "891e2ba263991a21caa3f2de57514bb4",
+    "spring.configuration.checksum": "4eda89744fcf71a4ce2f6d3cac762fab",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -73,6 +74,13 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.whz.springboot.security.demo" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -121,6 +129,7 @@
       <workItem from="1702371907970" duration="7655000" />
       <workItem from="1710146889574" duration="478000" />
       <workItem from="1720361119162" duration="1562000" />
+      <workItem from="1720362746218" duration="386000" />
     </task>
     <task id="LOCAL-00001" summary="文档更新">
       <created>1702380039330</created>
