@@ -15,6 +15,11 @@ public class MingYueUserService {
      */
     public MingYueUser queryUserByName(String username) {
         // mock db用户数据
-        return MingYueUser.builder().userId(1L).username(username).password("123456").build();
+        MingYueUser user = new MingYueUser();
+        user.setUserId(1L);
+        user.setUsername(username);
+        user.setPassword("123456");
+
+        return user;
     }
 }

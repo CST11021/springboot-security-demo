@@ -4,12 +4,13 @@ import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
 import com.whz.springboot.security.demo.model.MingYueUser;
 import com.whz.springboot.security.demo.vo.LoginUserVo;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.Resource;
 
 /**
  * @author Strive
@@ -18,10 +19,10 @@ import org.springframework.stereotype.Component;
  */
 @Slf4j
 @Component
-@RequiredArgsConstructor
 public class MingYueUserDetailsService implements UserDetailsService {
 
-    private final MingYueUserService mingYueUserService;
+    @Resource
+    private MingYueUserService mingYueUserService;
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {

@@ -1,0 +1,8 @@
+<div th:fragment="fragment-header" id="fragment-header-id">
+    <p>Header</p>
+    <hr />
+</div>
+<div th:fragment="fragment-footer(var)" id="fragment-footer-id">
+    <hr />
+    <p th:text="${var}">Footer</p>
+</div>

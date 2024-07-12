@@ -17,6 +17,7 @@ public class UserController {
 
     /**
      * 获取用户信息
+     * 请求：http://localhost:8080/user/admin
      *
      * @param username
      * @return

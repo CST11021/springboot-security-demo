@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+
+<div th:replace="common::fragment-header"></div>
+
+<div id="content" th:style="'min-height: 480px;'">
+    <h3>Home Page</h3>
+
+    <p>Message: <span th:text="${message}"></span></p>
+</div>
+
+<div th:replace="common::fragment-footer(var='Copyright 2020')"></div>
+
+</body>
+</html>
